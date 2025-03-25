@@ -4,12 +4,13 @@ import prontylLogo from './prontyl.jpeg'; // Ensure the image is in the same dir
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full bg-white shadow-md z-50">
-      <div className="navbar__container flex justify-between items-center px-4 py-2">
+    <nav className="fixed w-full bg-white shadow-md z-50 ">
+      {/* <div className="flex items-center"> */}
+      <img src={prontylLogo} alt="Prontyl Logo" className="h-10 w-auto absolute left-2 top-2" />
+        {/* </div> */}
+      <div className="navbar__container flex justify-center items-center px-4 py-4">
        
-        <div className="flex items-center">
-          <img src={prontylLogo} alt="Prontyl Logo" className="h-12 w-auto" />
-        </div>
+        
 
         
         <ul className="navbar__list flex space-x-4">
