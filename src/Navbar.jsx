@@ -13,7 +13,7 @@ export default function Navbar() {
         
 
         
-        <ul className="navbar__list flex space-x-4">
+        <ul className="navbar__list flex space-x-10">
           <li className="navbar__item">
             <Link to="/" className="navbar__link text-gray-700 hover:text-blue-500">
               Home
