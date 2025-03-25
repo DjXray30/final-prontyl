@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar__container">
-        <Link to="/" className="navbar__logo">
-          Prontyl
-        </Link>
+      <div className="navbar__container flex justify-content-space-between align-items-center">
         <ul className="navbar__menu">
           <li className="navbar__item">
             <Link to="/" className="navbar__link">
