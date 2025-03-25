@@ -6,12 +6,12 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-white shadow-md z-50">
       <div className="navbar__container flex justify-between items-center px-4 py-2">
-        {/* Prontyl Logo */}
+       
         <div className="flex items-center">
           <img src={prontylLogo} alt="Prontyl Logo" className="h-12 w-auto" />
         </div>
 
-        {/* Navigation Links */}
+        
         <ul className="navbar__list flex space-x-4">
           <li className="navbar__item">
             <Link to="/" className="navbar__link text-gray-700 hover:text-blue-500">
