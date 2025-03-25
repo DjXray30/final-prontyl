@@ -1,12 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import prontylLogo from './prontyl.jpeg'; // Ensure the image is in the same directory or adjust the path accordingly
 
 export default function Navbar() {
   return (
-    <nav className=" w-full bg-white shadow-md z-50">
-      <div className="navbar__container  flex  justify-center items-center  px-4 py-2">
-        
-        <ul className="navbar__menu flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <nav className="fixed w-full bg-white shadow-md z-50">
+      <div className="navbar__container flex justify-between items-center px-4 py-2">
+        {/* Prontyl Logo */}
+        <div className="flex items-center">
+          <img src={prontylLogo} alt="Prontyl Logo" className="h-12 w-auto" />
+        </div>
+
+        {/* Navigation Links */}
+        <ul className="navbar__list flex space-x-4">
           <li className="navbar__item">
             <Link to="/" className="navbar__link text-gray-700 hover:text-blue-500">
               Home
