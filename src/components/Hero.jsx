@@ -3,7 +3,7 @@ import backdrop from '../assets/backdrop.mp4';
 function Hero() {
     return (
         <div className="relative w-screen h-screen overflow-hidden">
-            {/* Background Video */}
+            
             <video
                 autoPlay
                 loop
@@ -13,10 +13,10 @@ function Hero() {
                 <source src={backdrop} type="video/mp4" />
             </video>
 
-            {/* Overlay Content */}
-            <div className="relative z-10 flex items-center justify-center h-full">
-                <p className="text-white text-3xl font-bold text-center px-4">
-                    Welcome to Prontyl! Experience the future of voting technology.
+            
+            <div className="absolute top-4 right-4 z-10">
+                <p className="text-white text-3xl font-bold text-right">
+                    Welcome to Prontyl! <br /> Experience the future of voting technology.
                 </p>
             </div>
         </div>
