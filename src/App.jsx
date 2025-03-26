@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Hero from './components/Hero'
 import Navbar from './Navbar'
 
 
@@ -11,7 +11,7 @@ function App() {
     <title>Prontyl</title>
    <Navbar/>
     <div className="container w-screen h-screen flex justify-start items-end">
-      
+      <Hero />
 
       </div>
     
