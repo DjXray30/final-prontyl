@@ -4,7 +4,7 @@ import prontylLogo from './assets/prontyl.jpeg'; // Ensure the image is in the s
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full bg-white shadow-md z-50 ">
+    <nav className="fixed w-full bg-transparent z-50 ">
       {/* <div className="flex items-center"> */}
       <img src={prontylLogo} alt="Prontyl Logo" className="h-10 w-auto absolute left-2 top-2" />
         {/* </div> */}
@@ -13,7 +13,7 @@ export default function Navbar() {
         
 
         
-        <ul className="navbar__list flex space-x-10">
+        <ul className="navbar__list flex space-x-10 font-bold">
           <li className="navbar__item">
             <Link to="/" className="navbar__link text-gray-700 hover:text-blue-500">
               Home
