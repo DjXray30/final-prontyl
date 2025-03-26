@@ -1,7 +1,7 @@
 import Hero from './components/Hero'
 import Navbar from './Navbar'
 import CustomVideoComponent from './VoteCard'
-
+import VotingMachineServices from './FaceCard'
 function App() {
     return (
         <>
@@ -11,6 +11,7 @@ function App() {
                 <Hero />
             </div>
             <CustomVideoComponent />
+            <VotingMachineServices/>
         </>
     )
 }

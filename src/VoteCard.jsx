@@ -10,7 +10,7 @@ const CustomVideoComponent = () => {
       </div>
       <div className="ml-6 w-full md:w-1/2">
         <video
-          controls
+        
           className="w-full h-auto rounded-lg shadow-lg"
           poster="path_to_your_poster_image_here"
           autoPlay
