@@ -9,11 +9,7 @@ export default function Navbar() {
       <img src={prontylLogo} alt="Prontyl Logo" className="h-10 w-auto absolute left-2 top-2" />
         {/* </div> */}
       <div className="navbar__container flex justify-center items-center px-4 py-4">
-       
-        
-
-        
-        <ul className="navbar__list flex space-x-10 font-bold">
+        <ul className="navbar__list flex space-x-10 font-bold text-xl">
           <li className="navbar__item">
             <Link to="/" className="navbar__link text-gray-700 hover:text-blue-500">
               Home
