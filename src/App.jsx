@@ -7,9 +7,9 @@ function App() {
         <>
             <title>Prontyl</title>
             <Navbar />
-            <div className="container w-screen h-screen flex justify-start items-end">
+            
                 <Hero />
-            </div>
+            
             <CustomVideoComponent />
             <VotingMachineServices/>
         </>
