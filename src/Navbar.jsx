@@ -21,17 +21,17 @@ export default function Navbar() {
           </li>
           <li className="navbar__item">
             <Link to="/about" className="navbar__link text-gray-700 hover:text-blue-500">
-              About
+              Elections
             </Link>
           </li>
           <li className="navbar__item">
             <Link to="/services" className="navbar__link text-gray-700 hover:text-blue-500">
-              Services
+              Register
             </Link>
           </li>
           <li className="navbar__item">
             <Link to="/contact" className="navbar__link text-gray-700 hover:text-blue-500">
-              Contact
+              About Us
             </Link>
           </li>
         </ul>
