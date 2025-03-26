@@ -14,9 +14,9 @@ function Hero() {
             </video>
 
             
-            <div className="absolute top-4 right-4 z-10">
-                <p className="text-white text-3xl font-bold text-right">
-                    Welcome to Prontyl! <br /> Experience the future of voting technology.
+            <div className="absolute top-30 right-40 z-10">
+                <p className="text-black text-7xl font-bold text-right">
+                    Your Voice.
                 </p>
             </div>
         </div>
