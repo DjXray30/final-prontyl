@@ -3,20 +3,20 @@ import backdrop from '../assets/backdrop.mp4';
 function Hero() {
     return (
         <div className="relative w-screen h-screen overflow-hidden">
-            
+
             <video
                 autoPlay
                 loop
                 muted
-                className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+                className="absolute top-0 left-0 w-full h-full object-cover object-left -z-10"
             >
                 <source src={backdrop} type="video/mp4" />
             </video>
 
-            
-            <div className="absolute top-30 right-40 z-10">
-                <p className="text-black text-7xl font-bold text-right">
-                    Your Voice.
+
+            <div className="absolute top-30 right-45 z-10">
+                <p className="text-black text-6xl font-bold text-left">
+                    Click. Caste. <br /> <span className='underline'>Change.</span>
                 </p>
             </div>
         </div>
