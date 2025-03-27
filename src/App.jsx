@@ -1,19 +1,36 @@
-import Hero from './components/Hero'
-import Navbar from './Navbar'
-import CustomVideoComponent from './VoteCard'
-import VotingMachineServices from './FaceCard'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero';
+import Navbar from './Navbar';
+import CustomVideoComponent from './VoteCard';
+import VotingMachineServices from './FaceCard';
+import About from './About Us'; 
+import Elections from './Elections'; 
+import Register from './Register'; 
+
 function App() {
     return (
-        <>
-            <title>Prontyl</title>
+        <Router>
             <Navbar />
-            
-                <Hero />
-            
-            <CustomVideoComponent />
-            <VotingMachineServices/>
-        </>
-    )
+            <Routes>
+                
+                <Route
+                    path="/"
+                    element={
+                        <>
+                            <Hero />
+                            <CustomVideoComponent />
+                            <VotingMachineServices />
+                        </>
+                    }
+                />
+               
+                <Route path="/elections" element={<Elections />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/about-us" element={<About />} />
+            </Routes>
+        </Router>
+    );
 }
 
-export default App
+export default App;
