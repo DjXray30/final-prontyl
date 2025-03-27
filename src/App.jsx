@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import Navbar from './Navbar'
 import CustomVideoComponent from './VoteCard'
 import VotingMachineServices from './FaceCard'
+import Copyright from './copyright'
 function App() {
     return (
         <>
@@ -12,6 +13,7 @@ function App() {
             
             <CustomVideoComponent />
             <VotingMachineServices/>
+            <Copyright />
         </>
     )
 }
