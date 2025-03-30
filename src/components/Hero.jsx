@@ -9,7 +9,7 @@ function Hero() {
                 autoPlay
                 loop
                 muted
-                className="absolute top-0 left-0 w-full h-full object-cover object-left -z-10"
+                className="absolute top-5 left-0 w-full h-full object-cover object-left -z-10"
             >
                 <source src={voteing} type="video/mp4" />
             </video>
