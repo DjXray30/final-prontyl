@@ -3,7 +3,8 @@ import React from "react";
 const CompetitorBenchmarking = () => {
   return (
     <>
-    <section className="flex flex-col md:flex-row items-center justify-center  p-10">
+    <div className="rounded-4xl bg-black ">
+    <section className="flex flex-col md:flex-row items-center justify-center text-white p-10">
       {/* Chart Section */}
       <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
         <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
@@ -17,13 +18,13 @@ const CompetitorBenchmarking = () => {
 
       {/* Text Section */}
       <div className="w-full md:w-1/2 p-6 font-bold">
-        <span className="px-4 py-1 text-sm font-semibold bg-gray-200 rounded-full">
+        <span className="px-4 py-1 text-sm font-semibold bg-blue-500 rounded-full">
           FEATURES
         </span>
-        <h2 className="text-6xl  text-black mt-4">
+        <h2 className="text-6xl mt-4">
           Mission Statement
         </h2>
-        <ul className="mt-6 space-y-4 text-xl text-gray-700">
+        <ul className="mt-6 space-y-4 text-xl text-gray-100">
           <li className="border-b pb-7">Ensure secure and transparent online voting.</li>
           <li className="border-b pb-7">Make voting accessible to everyone, anywhere</li>
           <li className="border-b pb-7">Enhance trust and integrity in digital elections.</li>
@@ -31,17 +32,17 @@ const CompetitorBenchmarking = () => {
       </div>
     </section>
 
-    <section className="flex flex-col md:flex-row items-center justify-center  min-h-screen p-10">
+    <section className="flex flex-col md:flex-row items-center justify-center text-white p-10">
 
     {/* Text Section */}
-    <div className="w-full md:w-1/2 p-6 font-bold">
-    <span className="px-4 py-1 text-sm font-semibold bg-gray-200 rounded-full">
-        FEATURES
-    </span>
-    <h2 className="text-6xl  text-black mt-4">
+    <div className="w-full md:w-1/2 p-6 font-bold ">
+    <span className="px-4 py-1 text-sm font-semibold bg-blue-500 rounded-full">
+          FEATURES
+        </span>
+    <h2 className="text-6xl text-white mt-4">
         Our Values
     </h2>
-    <ul className="mt-6 space-y-4 text-xl text-gray-700">
+    <ul className="mt-6 space-y-4 text-xl text-gray-100">
         <li className="border-b pb-7">Transparency – Open and verifiable election processes.</li>
         <li className="border-b pb-7">
         Security – Strong encryption and fraud prevention</li>
@@ -60,6 +61,7 @@ const CompetitorBenchmarking = () => {
     </div>
     </div>
     </section>
+    </div>
     </>
   );
 };
