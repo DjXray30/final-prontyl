@@ -1,5 +1,6 @@
 import React from 'react';
 import CompetitorBenchmarking from './AboutUsCard.jsx'
+import Testimonials from './components/Testimony.jsx';
 function About() {
     return (
         <div className='py-40 px-12 [&_p]:text-xl bg-amber-50'>
@@ -51,6 +52,7 @@ function About() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis natus magnam pariatur adipisci quibusdam.</p>
                 </article>
             </div>
+            <Testimonials className='mb-20'/>
             <CompetitorBenchmarking/>
         </div>
     );
