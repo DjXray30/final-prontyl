@@ -4,7 +4,7 @@ const CompetitorBenchmarking = () => {
   return (
     <>
     <div className="rounded-4xl bg-black ">
-    <section className="flex flex-col md:flex-row items-center justify-center text-white p-10">
+    <section className="flex flex-col md:flex-row items-center justify-center text-amber-50 p-10">
       {/* Chart Section */}
       <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
         <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
@@ -24,7 +24,7 @@ const CompetitorBenchmarking = () => {
         <h2 className="text-6xl mt-4">
           Mission Statement
         </h2>
-        <ul className="mt-6 space-y-4 text-xl text-gray-100">
+        <ul className="mt-6 space-y-4 text-xl text-amber-50 ">
           <li className="border-b pb-7">Ensure secure and transparent online voting.</li>
           <li className="border-b pb-7">Make voting accessible to everyone, anywhere</li>
           <li className="border-b pb-7">Enhance trust and integrity in digital elections.</li>
@@ -32,7 +32,7 @@ const CompetitorBenchmarking = () => {
       </div>
     </section>
 
-    <section className="flex flex-col md:flex-row items-center justify-center text-white p-10">
+    <section className="flex flex-col md:flex-row items-center justify-center text-amber-50  p-10">
 
     {/* Text Section */}
     <div className="w-full md:w-1/2 p-6 font-bold ">
@@ -42,7 +42,7 @@ const CompetitorBenchmarking = () => {
     <h2 className="text-6xl text-white mt-4">
         Our Values
     </h2>
-    <ul className="mt-6 space-y-4 text-xl text-gray-100">
+    <ul className="mt-6 space-y-4 text-xl text-amber-50 ">
         <li className="border-b pb-7">Transparency – Open and verifiable election processes.</li>
         <li className="border-b pb-7">
         Security – Strong encryption and fraud prevention</li>

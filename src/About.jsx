@@ -2,7 +2,7 @@ import React from 'react';
 import CompetitorBenchmarking from './AboutUsCard.jsx'
 function About() {
     return (
-        <div className='py-40 px-12 [&_p]:text-xl'>
+        <div className='py-40 px-12 [&_p]:text-xl bg-amber-50'>
             <section className='flex gap-15'>
                 <article className='flex-5/12'>
                     <h1 className='font-bold text-7xl'>We bring democracy closer to everyone</h1>

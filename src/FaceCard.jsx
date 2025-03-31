@@ -29,13 +29,13 @@ const VotingMachineServices = () => {
   ];
 
   return (
-    <div className="bg-black text-white py-10 px-4">
+    <div className="bg-black text-amber-50  py-10 px-4 rounded-t-4xl">
       <h2 className="text-5xl py-10 font-bold text-center mb-8 ">Our Services</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-2xl transition-transform duration-300 transform hover:-translate-y-2"
+            className="bg-gray-700 text-amber-50  p-6 rounded-4xl shadow-lg hover:shadow-2xl hover:bg-blue-600 transition-transform duration-300 transform hover:-translate-y-2"
           >
             <h3 className="text-xl font-bold mb-4">{service.title}</h3>
             <p>{service.description}</p>
