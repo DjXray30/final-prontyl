@@ -1,4 +1,3 @@
-import backdrop from '../assets/backdrop.mp4';
 import voteing from '../assets/voteing.mp4';
 
 function Hero() {
