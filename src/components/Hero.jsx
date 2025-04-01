@@ -16,7 +16,7 @@ function Hero() {
 
             <div className="absolute top-30 right-45 z-10">
                 <p className="text-black text-6xl font-bold text-left">
-                    Click. Caste. <br /> <span className='underline'>Change.</span>
+                    Click. Cast. <br /> <span className='underline'>Change.</span>
                 </p>
             </div>
         </div>
