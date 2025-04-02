@@ -2,7 +2,7 @@ import React from 'react';
 
 function Register() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center py-20">
+    <div className="bg-amber-50 min-h-screen flex flex-col items-center py-20">
       <h1 className="text-4xl font-bold text-center text-black mb-8">
         Choose Your Package
       </h1>

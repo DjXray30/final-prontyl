@@ -22,7 +22,7 @@ function About() {
                 </article>
             </section>
 
-            <p ><span className='text-3xl'>
+            <p ><span>
             "Our online voting platform modernizes democracy, providing secure and accessible voting for all. We simplify the process, aiming to boost participation and ensure every voice counts. With robust security and an intuitive design, we prioritize transparency and trust. We're committed to empowering citizens and fostering civic engagement through reliable digital elections."
             </span></p>
 
