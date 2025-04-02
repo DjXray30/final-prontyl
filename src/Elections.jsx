@@ -7,7 +7,7 @@ function Elections() {
   };
 
   return (
-    <section className="absolute top-20 w-full h-screen bg-gray-100">
+    <section className="absolute top-20 w-full h-screen ">
       <div className="flex justify-center space-x-4 py-4">
         <button
           className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition duration-300"
