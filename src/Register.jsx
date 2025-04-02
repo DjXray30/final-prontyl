@@ -10,7 +10,7 @@ function Register() {
       {/* Vertical Layout for Packages */}
       <div className="grid grid-cols-1 gap-8 w-11/12">
         {/* Package 1 */}
-        <div className="bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
+        <div className="bg-gray-800 shadow-lg rounded-3xl p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
           <h2 className="text-4xl font-bold text-center text-blue-400 mb-6">
             Basic Plan
           </h2>
@@ -37,7 +37,7 @@ function Register() {
         </div>
 
         {/* Package 2 */}
-        <div className="bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
+        <div className="bg-gray-800 shadow-lg rounded-3xl p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
           <h2 className="text-4xl font-bold text-center text-green-400 mb-6">
             Standard Plan
           </h2>
@@ -64,7 +64,7 @@ function Register() {
         </div>
 
         {/* Package 3 */}
-        <div className="bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
+        <div className="bg-gray-800 shadow-lg rounded-3xl p-8 hover:shadow-xl transition duration-300 h-auto flex flex-col justify-between">
           <h2 className="text-4xl font-bold text-center text-red-400 mb-6">
             Premium Plan
           </h2>
