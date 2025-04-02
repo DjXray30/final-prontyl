@@ -1,5 +1,5 @@
 import React from 'react';
-import voteVideo from './assets/vote.mp4';
+import voteVideo from '../assets/vote.mp4'; // Updated path
 const CustomVideoComponent = () => {
     return (
         <>
@@ -29,4 +29,3 @@ const CustomVideoComponent = () => {
 };
 
 export default CustomVideoComponent;
-

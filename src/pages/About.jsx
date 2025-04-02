@@ -1,6 +1,6 @@
 import React from 'react';
-import CompetitorBenchmarking from './AboutUsCard.jsx'
-import Testimonials from './components/Testimony.jsx';
+import CompetitorBenchmarking from '../components/AboutUsCard.jsx' // Updated path
+import Testimonials from '../components/Testimony.jsx'; // Updated path
 function About() {
     return (
         <div className='py-40 px-12 [&_p]:text-xl bg-amber-50'>

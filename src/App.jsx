@@ -1,13 +1,13 @@
 import React from 'react';
 import { Router, Routes, Route, BrowserRouter } from 'react-router';
 import Hero from './components/Hero';
-import Navbar from './Navbar';
-import CustomVideoComponent from './VoteCard';
-import VotingMachineServices from './FaceCard';
-import Copyright from './copyright';
-import About from './About.jsx'; 
-import Register from './Register'; 
-import Elections from './Elections'; 
+import Navbar from './components/Navbar'; // Updated path
+import CustomVideoComponent from './components/VoteCard'; // Updated path
+import VotingMachineServices from './components/FaceCard'; // Updated path
+import Copyright from './components/Copyright'; // Updated path
+import About from './pages/About.jsx'; // Updated path
+import Register from './pages/Register'; // Updated path
+import Elections from './pages/Elections'; // Updated path
 
 function App() {
     return (
