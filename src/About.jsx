@@ -22,34 +22,34 @@ function About() {
                 </article>
             </section>
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, doloremque earum. Fugit commodi neque nisi magni iste libero cum sed, quaerat tempora quam iusto excepturi temporibus explicabo incidunt at harum dolorem debitis modi illum sequi. Explicabo vero vitae voluptatum nostrum sint consequatur, a aperiam minus possimus molestiae soluta cumque quos.
-            </p>
+            <p ><span className='text-3xl'>
+            "Our online voting platform modernizes democracy, providing secure and accessible voting for all. We simplify the process, aiming to boost participation and ensure every voice counts. With robust security and an intuitive design, we prioritize transparency and trust. We're committed to empowering citizens and fostering civic engagement through reliable digital elections."
+            </span></p>
 
             <div className='relative grid grid-cols-4 gap-10 my-20 *:before:content-[""] *:before:absolute *:before:h-[calc(100%-2*(1.25rem))] *:before:border-3'>
                 <article className='flex flex-col justify-between gap-5 py-5 *:ml-5'>
                     <h2 className='text-6xl'>
-                        50<span className='text-lg align-middle mx-2'>+</span>
+                        50 Lakh<span className='text-lg align-middle mx-2'>+</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis natus magnam pariatur adipisci quibusdam.</p>
+                    <p><span className='text-4xl'> Registered Voters</span></p>
                 </article>
                 <article className='flex flex-col justify-between gap-5 py-5 *:ml-5'>
                     <h2 className='text-6xl'>
-                        50<span className='text-lg align-middle mx-2'>+</span>
+                        70 Crores<span className='text-lg align-middle mx-2'>+</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis natus magnam pariatur adipisci quibusdam.</p>
+                    <p><span className='text-4xl'>Votes Casted</span></p>
                 </article>
                 <article className='flex flex-col justify-between gap-5 py-5 *:ml-5'>
                     <h2 className='text-6xl'>
-                        50<span className='text-lg align-middle mx-2'>+</span>
+                        2 Weeks<span className='text-lg align-middle mx-2'>+</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis natus magnam pariatur adipisci quibusdam.</p>
+                    <p><span className='text-4xl'>Experience</span></p>
                 </article>
                 <article className='flex flex-col justify-between gap-5 py-5 *:ml-5'>
                     <h2 className='text-6xl'>
-                        50<span className='text-lg align-middle mx-2'>+</span>
+                        30<span className='text-lg align-middle mx-2'>+</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reiciendis natus magnam pariatur adipisci quibusdam.</p>
+                    <p><span className='text-4xl'>Elections Held</span></p>
                 </article>
             </div>
             <Testimonials className='mb-20'/>
