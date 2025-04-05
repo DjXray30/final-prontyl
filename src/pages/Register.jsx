@@ -119,6 +119,27 @@ function Register() {
           </a>
         </div>
       </div>
+      <section className="max-w-6xl mx-auto my-16 px-6">
+  <h2 className="text-3xl font-bold text-center mb-6">Why Choose Us?</h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+    <div>
+      <div className="text-4xl mb-2">🔒</div>
+      <h3 className="font-semibold text-lg">Military-Grade Security</h3>
+      <p className="text-gray-500 mt-2">All votes are encrypted and securely transmitted using blockchain-backed protocols.</p>
+    </div>
+    <div>
+      <div className="text-4xl mb-2">⚙️</div>
+      <h3 className="font-semibold text-lg">Customizable Features</h3>
+      <p className="text-gray-500 mt-2">Tailor the voting experience with custom branding, questions, and analytics.</p>
+    </div>
+    <div>
+      <div className="text-4xl mb-2">📊</div>
+      <h3 className="font-semibold text-lg">Real-time Analytics</h3>
+      <p className="text-gray-500 mt-2">Track turnout, region-wise breakdowns, and live vote count.</p>
+    </div>
+  </div>
+</section>
+
     </div>
     <Copyright/>
     </>
