@@ -7,7 +7,7 @@ const CustomVideoComponent = () => {
             <div className="flex items-center justify-center p-6 m-25 bg-gray-100 rounded-xl ">
                 <div className="w-full md:w-1/2">
                     <h2 className="text-2xl font-bold mb-4">
-                        Discover the power of Active Noise Cancellation in a film starring Pedro Pascal.
+                        "Building Trust Through Digital Democracy"
                     </h2>
                 </div>
                 <div className="ml-6 w-full md:w-1/2">

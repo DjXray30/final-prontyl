@@ -1,13 +1,15 @@
 import React from 'react';
 import CompetitorBenchmarking from '../components/AboutUsCard.jsx' // Updated path
 import Testimonials from '../components/Testimony.jsx'; // Updated path
+import Copyright from '../components/Copyright.jsx';
 function About() {
     return (
-        <div className='py-40 px-12 [&_p]:text-xl bg-amber-50'>
+        <>
+        <div className='pt-40 pb-10 px-12 [&_p]:text-xl bg-amber-50'>
             <section className='flex gap-15'>
                 <article className='flex-5/12'>
                     <h1 className='font-bold text-7xl'>We bring democracy closer to everyone</h1>
-                    <p className='my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi.</p>
+                    <p className='my-5'>"Secure, simple, online voting. Your voice, amplified."</p>
                 </article>
                 <article className='flex-7/12 text-neutral-500'>
                     <h1 className='font-bold text-6xl'>
@@ -17,7 +19,7 @@ function About() {
                         </span>
                     </h1>
                     <p className='my-5 max-w-1/2'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolorum distinctio explicabo impedit iste! Error similique consectetur odio quibusdam quo, possimus ullam totam blanditiis vitae earum, veritatis delectus facilis ratione.
+                    "Secure online voting: empowering participation, ensuring accurate results, and modernizing democratic processes for increased accessibility and civic engagement."
                     </p>
                 </article>
             </section>
@@ -54,7 +56,10 @@ function About() {
             </div>
             <Testimonials className='mb-20'/>
             <CompetitorBenchmarking/>
+            
         </div>
+        <Copyright/>
+        </>
     );
 }
 

@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import Copyright from '../components/Copyright';
 
 function Elections() {
   const upcomingRef = useRef(null);
@@ -7,6 +8,7 @@ function Elections() {
   };
 
   return (
+  <>
     <section className="absolute top-20 w-full h-screen ">
       <div className="flex justify-center space-x-4 py-4">
         <button
@@ -60,7 +62,7 @@ function Elections() {
       </div>
 
       {/* Card 3 */}
-      <article className="relative w-3/4 mx-auto h-1/2">
+      <article className="relative w-3/4 mx-auto h-1/2 ">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white z-10 bg-black bg-opacity-50 rounded-lg p-6">
           <p className="text-3xl font-bold mb-4">Indian General Elections 2034</p>
           <div className="text-center">
@@ -71,7 +73,10 @@ function Elections() {
           </div>
         </div>
       </article>
+      <br/><br/>
+      <Copyright/>
     </section>
+    </>
   );
 }
 
