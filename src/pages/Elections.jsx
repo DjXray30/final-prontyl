@@ -99,17 +99,37 @@ function Elections() {
       </div>
 
       {/* Card 3 */}
-      <article className="relative w-3/4 mx-auto h-1/2">
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white z-10 bg-black bg-opacity-50 rounded-lg p-6">
-          <p className="text-3xl font-bold mb-4">Indian General Elections 2034</p>
-          <div className="text-center">
-            <p className="text-xl font-semibold mb-2">Click Here to Vote</p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-600 transition duration-300">
-              Vote
-            </button>
-          </div>
-        </div>
-      </article>
+      <div className="bg-black text-white rounded-2xl p-8 max-w-5xl mx-auto my-8 shadow-lg ">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+        <h2 className="text-2xl font-semibold">Indian General Elections 2034</h2>
+        <span className="bg-yellow-400 text-black text-sm px-3 py-1 rounded-full mt-2 sm:mt-0">
+          🟡 Coming Soon
+        </span>
+      </div>
+
+      <p className="mt-4 text-gray-300">
+        Get ready to shape the future once again. The Indian General Elections 2034 are approaching — stay informed and be prepared to vote!
+      </p>
+
+      <div className="mt-6 space-y-1 text-sm text-gray-400">
+        <p>📅 <span className="font-semibold">Expected Start:</span> April 8, 2034</p>
+        <p>📅 <span className="font-semibold">Expected End:</span> April 20, 2034</p>
+        <p>📢 <span className="font-semibold">Results Expected:</span> April 25, 2034</p>
+      </div>
+
+      <div className="mt-6 flex flex-wrap gap-4">
+        <button className="bg-yellow-500 hover:bg-yellow-600 transition text-black px-5 py-2 rounded-xl text-sm font-medium">
+          📅 Notify Me
+        </button>
+        <button className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
+          ℹ️ View Details
+        </button>
+      </div>
+
+      <p className="mt-6 text-xs italic text-gray-500">
+        🛡️ Stay updated through verified government channels for official announcements.
+      </p>
+    </div>
       <br/><br/>
     <Copyright/>
     </section>
