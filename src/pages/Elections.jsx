@@ -110,9 +110,10 @@ function Elections() {
           </div>
         </div>
       </article>
-    </section>
-    <br/><br/>
+      <br/><br/>
     <Copyright/>
+    </section>
+    
     </>
   );
 }
