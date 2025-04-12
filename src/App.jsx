@@ -10,6 +10,7 @@ import About from './pages/About.jsx'; // Updated path
 import Register from './pages/Register'; // Updated path
 import Elections from './pages/Elections'; // Updated path
 import axios from 'axios';
+import Subscribe from './components/Subscribe.jsx';
 
 function App() {
     const fetchApi = async () => {
@@ -42,6 +43,7 @@ function App() {
                 <Route path="/about-us" element={<About />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/elections" element={<Elections />} />
+                <Route path="/subscribe" element={<Subscribe />} />
             </Routes>
             </BrowserRouter>
         
