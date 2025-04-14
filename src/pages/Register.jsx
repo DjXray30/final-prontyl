@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 import Copyright from '../components/Copyright';
+import FAQSection from '../components/faqs';
 
 function Register() {
   return (
@@ -121,6 +122,7 @@ function Register() {
           </div>
         </div>
       </div>
+      <FAQSection />
       <Copyright />
     </>
   );
