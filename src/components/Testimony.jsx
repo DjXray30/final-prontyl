@@ -2,14 +2,38 @@ import React from "react";
 
 const Testimonials = () => {
   const testimonials = [
-    { name: "Sarah Johnson", quote: "As a senior citizen with mobility issues, getting to a polling station was always a challenge. This online platform made voting easy and convenient. I felt like my voice truly mattered.", color: "bg-blue-500" },
-    { name: "Michael Chen", quote: "I'm a busy working professional, and finding time to vote during traditional polling hours was nearly impossible. This website allowed me to cast my ballot from my phone, anytime, anywhere. It's a game-changer!", color: "bg-emerald-600" },
-    { name: "Priya Patel", quote: "I was initially skeptical about online voting, but the security measures and transparent process put my mind at ease. The platform was user-friendly, and I felt confident my vote was accurately recorded." , color: "bg-orange-500" },
-    { name: "David Rodriguez", quote:  "Living in a rural area, it's often difficult to stay informed about local elections. This website provided comprehensive information about candidates and issues, making it easy to make informed choices." , color: "bg-orange-500" },
-    { name: "Emma Wilson", quote: "The instant results feature was fantastic! I loved being able to see the outcome of the election in real-time. This platform is a great way to engage younger voters like myself.", color: "bg-blue-500" },
-    { name: "James Thompson", quote: "I appreciate the accessibility features built into the website. It was easy to navigate and use, even with my visual impairment. I'm glad to see voting becoming more inclusive.", color: "bg-emerald-600" },
+    {
+      name: "Nelson Mandela",
+      quote: "Prontyl's platform ensured a transparent and fair election process, empowering millions to vote securely and confidently. It was a cornerstone in strengthening democracy.",
+      color: "bg-blue-500",
+    },
+    {
+      name: "Barack Obama",
+      quote: "With Prontyl, we were able to engage voters like never before. The seamless technology and real-time results made the election process efficient and trustworthy.",
+      color: "bg-emerald-600",
+    },
+    {
+      name: "Narendra Modi",
+      quote: "Prontyl's innovative approach to elections brought people together, ensuring every voice was heard. It truly embodies the spirit of democracy.",
+      color: "bg-orange-500",
+    },
+    {
+      name: "Angela Merkel",
+      quote: "Prontyl's secure and user-friendly platform made organizing elections across the nation effortless. It set a new standard for electoral integrity.",
+      color: "bg-orange-500",
+    },
+    {
+      name: "John F. Kennedy",
+      quote: "Prontyl revolutionized the way elections are conducted. Its cutting-edge technology ensured a smooth and transparent process, inspiring confidence in voters.",
+      color: "bg-blue-500",
+    },
+    {
+      name: "Winston Churchill",
+      quote: "Prontyl's platform was instrumental in organizing a fair and efficient election. It upheld the values of democracy and ensured every vote counted.",
+      color: "bg-emerald-600",
+    },
   ];
-  
+
   return (
     <div className="flex flex-row w-full place-items-start gap-5 my-20">
       {/* Blue box with text */}
