@@ -1,6 +1,6 @@
 import React from 'react';
-import CompetitorBenchmarking from '../components/AboutUsCard.jsx' // Updated path
-import Testimonials from '../components/Testimony.jsx'; // Updated path
+import CompetitorBenchmarking from '../components/AboutUsCard.jsx' 
+import Testimonials from '../components/Testimony.jsx'; 
 import Copyright from '../components/Copyright.jsx';
 function About() {
     return (

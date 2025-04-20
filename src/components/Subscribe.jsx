@@ -7,7 +7,7 @@ const Subscribe = () => {
     package: '',
   });
 
-  const packages = ['Basic', 'Standard', 'Premium']; // Example package options
+  const packages = ['Basic', 'Standard', 'Premium']; 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +17,6 @@ const Subscribe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form Data:', formData);
-    // Add logic to handle form submission (e.g., API call)
   };
 
   return (

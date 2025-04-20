@@ -1,5 +1,5 @@
 import React from 'react';
-import voteVideo from '../assets/vote.mp4'; // Updated path
+import voteVideo from '../assets/vote.mp4'; 
 const CustomVideoComponent = () => {
     return (
         <>

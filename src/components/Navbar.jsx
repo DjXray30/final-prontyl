@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import prontylLogo from '../assets/prontyl.jpeg'; // Updated path
+import prontylLogo from '../assets/prontyl.jpeg'; 
 
 export default function Navbar() {
   return (

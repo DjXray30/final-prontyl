@@ -1,5 +1,6 @@
 import React from "react";
-import lock from "../assets/lock.webp"; // Updated path
+import lock from "../assets/lock.webp";
+import values from "../assets/valuesaboutus.jpg"
 const CompetitorBenchmarking = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const CompetitorBenchmarking = () => {
           <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
             <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
               <img
-                src="\src\assets\lock.webp"  // Replace with your own image path
+                src="\src\assets\lock.webp"  
                 alt="Competitor Benchmarking Chart"
                 className="rounded-xl"
               />
@@ -54,7 +55,7 @@ const CompetitorBenchmarking = () => {
           <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
             <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
               <img
-                src="/your-image-path.png"  // Replace with your own image path
+                src="\src\assets\valuesaboutus.jpg"
                 alt="Competitor Benchmarking Chart"
                 className="rounded-xl"
               />
