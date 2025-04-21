@@ -20,11 +20,11 @@ function Elections() {
 
   const handleVoteNow = async () => {
     try {
-      // Trigger Gmail authentication
+      
       const result = await signInWithPopup(auth, provider);
       console.log('User signed in:', result.user);
 
-      // Navigate to the voting page after successful authentication
+      
       navigate('/vote/indian-general-elections-2029');
     } catch (error) {
       console.error('Error during sign-in:', error);
@@ -66,9 +66,9 @@ function Elections() {
           </p>
 
           <div className="mt-6 space-y-1 text-sm text-gray-400">
-            <p>📅 <span className="font-semibold">Start Date:</span> April 10, 2029</p>
-            <p>📅 <span className="font-semibold">End Date:</span> April 20, 2029</p>
-            <p>📢 <span className="font-semibold">Result Date:</span> April 25, 2029</p>
+            <p>📅 <span className="font-semibold">Date:</span> April 10, 2029</p>
+            <p>⏰ <span className="font-semibold">Time:</span> 09:00 - 18:00</p>
+            <p>📢 <span className="font-semibold">Results:</span> April 25, 2029</p>
           </div>
 
           <div className="mt-6 flex flex-wrap gap-4">
@@ -78,12 +78,6 @@ function Elections() {
             >
               🗳️ Vote Now
             </button>
-            <Link
-              to="/viewparties"
-              className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium"
-            >
-              👥 View Parties
-            </Link>
           </div>
 
           <p className="mt-6 text-xs italic text-gray-500">
@@ -103,18 +97,15 @@ function Elections() {
           </p>
 
           <div className="mt-6 space-y-1 text-sm text-gray-400">
-            <p>📅 <span className="font-semibold">Start Date:</span> November 5, 2029</p>
-            <p>📅 <span className="font-semibold">End Date:</span> November 5, 2029</p>
-            <p>📢 <span className="font-semibold">Result Announcement:</span> November 6, 2029</p>
+            <p>📅 <span className="font-semibold">Date:</span> November 5, 2029</p>
+            <p>⏰ <span className="font-semibold">Time:</span> 10:00 - 19:00</p>
+            <p>📢 <span className="font-semibold">Results:</span> November 6, 2029</p>
           </div>
 
           <div className="mt-6 flex flex-wrap gap-4">
             <Link to="/vote/us-presidential-election-2029" className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
               🗳️ Vote Now
             </Link>
-            <button className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
-              👥 View Candidates
-            </button>
           </div>
 
           <p className="mt-6 text-xs italic text-gray-500">
@@ -145,15 +136,6 @@ function Elections() {
               <p>📅 <span className="font-semibold">Date:</span> {election.electionDate}</p>
               <p>⏰ <span className="font-semibold">Time:</span> {election.electionStartTime} - {election.electionEndTime}</p>
               <p>📢 <span className="font-semibold">Results:</span> {election.resultDate}</p>
-            </div>
-
-            <div className="mt-6 flex flex-wrap gap-4">
-              <button className="bg-yellow-500 hover:bg-yellow-600 transition text-black px-5 py-2 rounded-xl text-sm font-medium">
-                📅 Notify Me
-              </button>
-              <button className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
-                ℹ️ View Details
-              </button>
             </div>
 
             <p className="mt-6 text-xs italic text-gray-500">

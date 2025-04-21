@@ -1,4 +1,4 @@
-// filepath: c:\Users\Nihar\Documents\GitHub\final-prontyl\src\firebase.js
+
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
