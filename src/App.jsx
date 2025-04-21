@@ -14,7 +14,7 @@ import VoteNow from './pages/VoteNow';
 import USVoteNow from './pages/USVoteNow';
 import axios from 'axios';
 import Subscribe from './components/Subscribe.jsx';
-
+import Footer from './components/bigfooter.jsx';
 
 function App() {
     const fetchApi = async () => {
@@ -40,7 +40,7 @@ function App() {
                             <CustomVideoComponent />
                             <VotingMachineServices />
                             <SustainabilityTemplate />
-                            <Copyright />
+                            <Footer />
                         </>
                     }
                 />

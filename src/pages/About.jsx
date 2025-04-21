@@ -2,6 +2,7 @@ import React from 'react';
 import CompetitorBenchmarking from '../components/AboutUsCard.jsx' 
 import Testimonials from '../components/Testimony.jsx'; 
 import Copyright from '../components/Copyright.jsx';
+import Footer from '../components/bigfooter.jsx';
 function About() {
     return (
         <>
@@ -58,7 +59,7 @@ function About() {
             <CompetitorBenchmarking/>
             
         </div>
-        <Copyright/>
+        <Footer/>
         </>
     );
 }

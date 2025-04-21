@@ -4,8 +4,8 @@ import values from "../assets/valuesaboutus.jpg"
 const CompetitorBenchmarking = () => {
   return (
     <>
-      <div className="rounded-4xl bg-black ">
-        <section className="flex flex-col md:flex-row items-center justify-center text-amber-50 p-10">
+      <div className="rounded-4xl ">
+        <section className="flex flex-col md:flex-row items-center justify-center text-amber-50 m-10 bg-black p-10">
           {/* Chart Section */}
           <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
             <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
@@ -33,7 +33,7 @@ const CompetitorBenchmarking = () => {
           </div>
         </section>
 
-        <section className="flex flex-col md:flex-row items-center justify-center text-amber-50  p-10">
+        <section className="flex flex-col md:flex-row items-center justify-center text-amber-50 bg-black m-10 p-10">
 
           {/* Text Section */}
           <div className="w-full md:w-1/2 p-6 font-bold ">
@@ -55,7 +55,7 @@ const CompetitorBenchmarking = () => {
           <div className="w-full md:w-1/2 flex justify-center bg-gray-50">
             <div className="bg-gray-20 shadow-lg rounded-2xl p-4">
               <img
-                src="\src\assets\valuesaboutus.jpg"
+                src="\src\assets\valuesaboutus2.jpg"
                 alt="Competitor Benchmarking Chart"
                 className="rounded-xl"
               />
