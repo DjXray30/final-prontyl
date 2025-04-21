@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import Copyright from '../components/Copyright';
 
 function Elections() {
@@ -47,9 +48,9 @@ function Elections() {
       </div>
 
       <div className="mt-6 flex flex-wrap gap-4">
-        <button className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
+        <Link to="/vote/indian-general-elections-2029" className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
           🗳️ Vote Now
-        </button>
+        </Link>
         <button className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
           👥 View Parties
         </button>
@@ -133,7 +134,7 @@ function Elections() {
       <br/><br/>
     <Copyright/>
     </section>
-    
+
     </>
   );
 }
