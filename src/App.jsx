@@ -11,6 +11,7 @@ import About from './pages/About.jsx';
 import Register from './pages/Register';
 import Elections from './pages/Elections';
 import VoteNow from './pages/VoteNow';
+import USVoteNow from './pages/USVoteNow';
 import axios from 'axios';
 import Subscribe from './components/Subscribe.jsx';
 
@@ -47,6 +48,7 @@ function App() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/elections" element={<Elections />} />
                 <Route path="/vote/indian-general-elections-2029" element={<VoteNow />} />
+                <Route path="/vote/us-presidential-election-2029" element={<USVoteNow />} />
                 <Route path="/subscribe" element={<Subscribe />} />
             </Routes>
             </BrowserRouter>
