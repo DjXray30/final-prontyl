@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* Brand & Mission */}
         <div>
-          <h2 className="text-2xl font-bold mb-4 text-white">VoteSmart</h2>
+          <h2 className="text-2xl font-bold mb-4 text-white">Prontyl</h2>
           <p className="text-sm leading-relaxed">
             Empowering democracy through secure and accessible digital voting. Your voice, your power, your future.
           </p>
@@ -40,7 +40,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-white">Connect With Us</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: <a href="mailto:support@votesmart.org" className="text-blue-400 hover:underline">support@votesmart.org</a></li>
+            <li>Email: <a href="mailto:support@votesmart.org" className="text-blue-400 hover:underline">support@prontyl.org</a></li>
             <li>Phone: <a href="tel:+18001234567" className="hover:text-white">1-800-123-VOTE</a></li>
           </ul>
           <div className="flex space-x-4 mt-4 text-lg">
@@ -54,7 +54,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-12 pt-6 text-center text-xs text-gray-400">
-        &copy; 2025 VoteSmart. All rights reserved. | Built with ❤️ for democracy.
+        &copy; 2025 Prontyl. All rights reserved. | Built with ❤️ for democracy.
       </div>
     </footer>
   );
