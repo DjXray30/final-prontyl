@@ -15,6 +15,7 @@ import USVoteNow from './pages/USVoteNow';
 import axios from 'axios';
 import Subscribe from './components/Subscribe.jsx';
 
+
 function App() {
     const fetchApi = async () => {
         const response = await axios.get('http://localhost:3000/api');

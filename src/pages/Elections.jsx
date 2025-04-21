@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { auth, provider, signInWithPopup } from '../firebase';
 import Copyright from '../components/Copyright';
 
 function Elections() {
   const upcomingRef = useRef(null);
+  const navigate = useNavigate();
   const scrollToSection = () => {
     upcomingRef.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -16,6 +18,19 @@ function Elections() {
     }
   }, []);
 
+  const handleVoteNow = async () => {
+    try {
+      // Trigger Gmail authentication
+      const result = await signInWithPopup(auth, provider);
+      console.log('User signed in:', result.user);
+
+      // Navigate to the voting page after successful authentication
+      navigate('/vote/indian-general-elections-2029');
+    } catch (error) {
+      console.error('Error during sign-in:', error);
+      alert('Authentication failed. Please try again.');
+    }
+  };
 
   return (
     <>
@@ -38,7 +53,7 @@ function Elections() {
         </div>
 
         {/* Card 1 */}
-        <div className="bg-black text-white rounded-2xl p-8  max-w-5xl mx-auto my-8 shadow-lg">
+        <div className="bg-black text-white rounded-2xl p-8 max-w-5xl mx-auto my-8 shadow-lg">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
             <h2 className="text-2xl font-semibold">Indian General Elections 2029</h2>
             <span className="bg-green-400 text-black text-sm px-3 py-1 rounded-full mt-2 sm:mt-0">
@@ -57,12 +72,18 @@ function Elections() {
           </div>
 
           <div className="mt-6 flex flex-wrap gap-4">
-            <Link to="/vote/indian-general-elections-2029" className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
+            <button
+              onClick={handleVoteNow} // Trigger Gmail authentication
+              className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-2 rounded-xl text-sm font-medium"
+            >
               🗳️ Vote Now
-            </Link>
-            <button className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium">
-              👥 View Parties
             </button>
+            <Link
+              to="/viewparties"
+              className="bg-gray-700 hover:bg-gray-800 transition text-white px-5 py-2 rounded-xl text-sm font-medium"
+            >
+              👥 View Parties
+            </Link>
           </div>
 
           <p className="mt-6 text-xs italic text-gray-500">

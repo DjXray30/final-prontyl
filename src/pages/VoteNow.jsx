@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { auth } from '../firebase';
 import Copyright from '../components/Copyright';
 import PartyBallot from '../components/PartyBallot';
 import VoteConfirmation from '../components/VoteConfirmation';
@@ -12,6 +13,13 @@ function VoteNow() {
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [voteSubmitted, setVoteSubmitted] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!auth.currentUser) {
+      alert('You must sign in to access this page.');
+      navigate('/'); // Redirect to home page if not authenticated
+    }
+  }, []);
 
   const handlePartySelect = (party) => {
     setSelectedParty(party);
